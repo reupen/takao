@@ -1,0 +1,41 @@
+{%- extends "basic/layout.html" %}
+
+{%- block extrahead %}
+  {{ super() }}
+{% endblock %}
+
+{%- block body_tag %}<body>
+<div id="blur-overlay" class="blur-overlay" aria-hidden="true" hidden></div>
+<div class="root-left"></div>
+<div class="root">{% endblock %}
+
+{%- block relbar1 %}{% endblock %}
+{%- block relbar2 %}{% endblock %}
+
+{%- block content %}
+<div class="content">
+  {%- block sidebar1 %}<aside id="sidebar" class="sidebar-container">{{ sidebar() }}</aside>{% endblock %}
+
+  <div class="content-main">
+    {% include "partials/mobile-menubar.jinja2" %}
+
+    <div id="top" class="document">
+  {%- block document %}
+      {{ super() }}
+      {% include "partials/prev-next.jinja2" %}
+  {%- endblock %}
+
+  {%- block sidebar2 %}{% endblock %}
+      <div class="clearer"></div>
+
+    </div>
+  </div>
+  {% include "partials/page-nav.jinja2" %}
+</div>
+{%- endblock %}
+
+{%- block footer %}
+  </div>
+  <div class="root-right"></div>
+  <script src="{{ pathto('_static/takao.js', 1) }}" defer async></script>
+{% endblock %}

@@ -1,0 +1,30 @@
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "takao"
+version = "0.0.1.dev5"
+description = "A dark theme for Sphinx."
+authors = ["Reupen Shah"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/reupen/takao"
+packages = [{include = "takao"}]
+include = ["takao/static/**/*"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+sphinx = ">=4"
+
+[tool.poetry.group.dev.dependencies]
+djlint = "^1.19.14"
+
+[tool.poetry.plugins."sphinx.html_themes"]
+takao = "takao"
+
+[tool.djlint]
+profile="jinja"
+ignore="H020"
+indent=2
+extension="jinja2"

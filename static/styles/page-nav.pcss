@@ -1,0 +1,75 @@
+.localtoc {
+  display: none;
+
+  @media screen and (--page-nav-visible) {
+    display: block;
+    flex: 0 0 225px;
+    padding: 1.5rem 2rem 1.5rem 0;
+    font-size: 14px;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    overflow-y: auto;
+  }
+
+  & ul {
+    list-style: none;
+    padding: 0;
+    margin: 0.125rem 0 0 0;
+  }
+
+  & li a {
+    display: inline-block;
+    padding: 0.3rem 0;
+  }
+
+  & li li a {
+    padding-left: 0.75rem;
+  }
+
+  & li a {
+    color: #b8b8b8;
+    font-weight: 500;
+    position: relative;
+  }
+
+  & p {
+    margin: 0;
+  }
+
+  & .caption {
+    margin-bottom: 0.5rem;
+  }
+
+  & > ul {
+    position: relative;
+    margin-left: 13px;
+    margin-bottom: 0.5rem;
+
+    &::after {
+      position: absolute;
+      content: "";
+      left: -11px;
+      top: 0.15rem;
+      bottom: 0.15rem;
+      width: 1px;
+      background: #444;
+      z-index: 1000;
+    }
+  }
+
+  & li a.current {
+    color: #fff;
+
+    &::after {
+      position: absolute;
+      content: "";
+      left: -11.5px;
+      top: 0.3rem;
+      bottom: 0.3rem;
+      width: 2px;
+      background: var(--text-accent-colour);
+      z-index: 2000;
+    }
+  }
+}

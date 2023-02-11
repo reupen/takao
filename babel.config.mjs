@@ -1,0 +1,7 @@
+export default {
+  minified: true,
+  presets: [
+    ["@babel/preset-env", { modules: false }],
+    "@babel/preset-typescript",
+  ],
+};

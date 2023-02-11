@@ -1,0 +1,161 @@
+@import "inter-ui/inter.css";
+
+:root {
+  font-family: "Inter", sans-serif;
+}
+@supports (font-variation-settings: normal) {
+  :root {
+    font-family: "Inter var", sans-serif;
+  }
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  background: #1e1e1e;
+  color: white;
+  display: flex;
+}
+
+code {
+  font-size: 15px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 25px;
+}
+
+h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+h4 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+h5 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+h6 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 0 0 1rem 0;
+  line-height: 1.75;
+}
+
+li p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+
+  &, :visited {
+    color: #ebebeb;
+  }
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+pre {
+  border: 1px solid #333;
+  border-radius: 2px;
+  font-size: 15px;
+  overflow: auto;
+  padding: 0.625rem;
+}
+
+code {
+  background: #333;
+  padding: 0 3px;
+  border: 1px solid #444;
+  border-radius: 2px;
+  word-break: break-word;
+}
+
+dt {
+  background: #333;
+  padding: 0 5px;
+  margin-bottom: 1rem;
+  line-height: 1.75;
+  border: 1px solid #444;
+  border-radius: 2px;
+  word-break: break-word;
+}
+
+dd {
+  margin-left: 1.625rem;
+  word-break: break-word;
+
+  & p {
+    margin-bottom: 0.75rem;
+  }
+}
+
+dd p {
+}
+
+dl {
+  margin-top: 1rem;
+
+  & ul {
+    margin-left: 0;
+    padding-left: 1.5rem;
+
+    & p {
+      padding: 2px 0;
+      margin: 0;
+    }
+  }
+}
+
+input,
+button {
+  font-size: 16px;
+  background: #000;
+  color: white;
+  border: 1px solid #777;
+  border-radius: 5px;
+  padding: 0.325rem;
+
+  &:focus {
+    outline: 1px solid var(--text-accent-colour);
+  }
+}
+
+html.overlay-active {
+  overflow-y: hidden;
+}

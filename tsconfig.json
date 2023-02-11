@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node16",
+    "strict": true,
+    "skipLibCheck": true,
+    "target": "es2015"
+  }
+}
