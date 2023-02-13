@@ -23,9 +23,9 @@
     transform: translateX(0);
     opacity: 1;
     position: sticky;
-    flex: 0 0 225px;
+    flex: 0 0 275px;
     min-width: fit-content;
-    max-width: initial;
+    max-width: 300px;
     padding: 1.5rem 2rem 1.5rem 2rem;
   }
 
@@ -74,6 +74,8 @@
     display: flex;
 
     & *:first-child {
+      flex: 1;
+      min-width: 0;
       margin-right: 0.4rem;
     }
   }

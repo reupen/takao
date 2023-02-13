@@ -1,0 +1,29 @@
+#readthedocs-embed-flyout {
+  & .rst-versions {
+    position: static;
+    margin-top: 3rem;
+    border: 1px solid #555;
+    border-radius: 5px;
+
+    & .rst-current-version {
+      border-radius: 5px;
+      padding: 0 0.75rem
+    }
+
+    & .rst-other-versions {
+      & dl + dl {
+        margin-top: 0.9rem;
+      }
+
+      & dd {
+        & a {
+          padding: 0.375rem 0.375rem 0 0;
+        }
+
+        > div {
+          padding: 0.375rem 0.375rem 0 0 !important;
+        }
+      }
+    }
+  }
+}
