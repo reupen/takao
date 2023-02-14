@@ -6,6 +6,10 @@ Takao is a dark theme for the
 I created it mainly for my own projects. Feel free to try it and open an issue
 if you have any problems.
 
+## Demo
+
+For a demo of the theme, see https://columns-ui-sdk.readthedocs.io.
+
 ## Licence
 
 Takao uses the MIT licence.
