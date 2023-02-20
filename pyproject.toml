@@ -4,7 +4,7 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
 name = "takao"
-version = "0.0.1.dev9"
+version = "0.0.1.dev10"
 description = "A dark theme for Sphinx."
 authors = ["Reupen Shah"]
 license = "MIT"
