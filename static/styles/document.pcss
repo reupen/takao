@@ -57,8 +57,8 @@
 
   & dt {
     background: #333;
-    padding: 0 5px;
-    margin-bottom: 1rem;
+    padding: 0 6px;
+    margin-bottom: 0.75rem;
     line-height: 1.75;
     border: 1px solid #444;
     border-radius: 2px;
@@ -67,6 +67,8 @@
 
   & dd {
     margin-left: 1.625rem;
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
     word-break: break-word;
 
     & p {
@@ -143,17 +145,20 @@
   }
 
   & .admonition {
-    background: #333;
-    border: 1px solid #444;
+    background: var(--admonition-default-background);
+    border: 1px solid var(--admonition-default-accent);
     border-radius: 2px;
     margin: 1rem 0;
 
-    & p {
+    > p {
       margin: 0;
-      padding: 2px 5px;
+
+      &:not(:empty):not(.admonition-title) {
+        padding: 2px 7px;
+      }
 
       &:last-child {
-        margin-bottom: 0;
+        margin-bottom: 0.25rem;
       }
     }
 
@@ -162,18 +167,28 @@
     }
 
     & .admonition-title {
+      background: var(--admonition-default-accent);
       border-radius: 2px 2px 0 0;
-      padding: 1px 5px;
-      background: #15495d;
-      border-bottom: 1px solid #444;
+      padding: 1px 7px;
+      margin-bottom: 0.25rem;
     }
 
-    &.seealso .admonition-title {
-      background: #344c23;
+    &.seealso {
+      background: var(--admonition-seealso-background);
+      border-color: var(--admonition-seealso-accent);
+
+      .admonition-title {
+        background: var(--admonition-seealso-accent);
+      }
     }
 
-    &.warning .admonition-title {
-      background: #4c2323;
+    &.warning {
+      background: var(--admonition-warning-background);
+      border-color: var(--admonition-warning-accent);
+
+      .admonition-title {
+        background: var(--admonition-warning-accent);
+      }
     }
   }
 }
@@ -220,6 +235,7 @@
     border-radius: 5px;
 
     &:hover {
+      border-color: var(--text-accent-colour);
       text-decoration: none;
     }
   }
