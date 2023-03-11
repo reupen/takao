@@ -3,9 +3,9 @@ Installation
 
 1. Install the Python package:
 
-  .. code-block:: shell
+   .. code-block:: shell
 
-    pip install takao
+     pip install takao
 
 2. Update `html_theme` in your Sphinx project configuration::
 
@@ -13,7 +13,7 @@ Installation
 
 3. Create a fresh documentation build in your Sphinx project directory:
 
-  .. code-block:: shell
+   .. code-block:: shell
 
-    make clean
-    make html
+     make clean
+     make html

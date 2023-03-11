@@ -16,6 +16,7 @@
    test-pages/basic-lists.rst
    test-pages/blocks.rst
    test-pages/description-lists.rst
+   test-pages/mixed-content.rst
    test-pages/tables.rst
 
 Introduction

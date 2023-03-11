@@ -5,4 +5,4 @@ from build import build
 
 if __name__ == "__main__":
     build()
-    run(["poetry", "publish"], check=True, shell=True)
+    run("poetry publish", check=True, shell=True)

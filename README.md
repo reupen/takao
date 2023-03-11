@@ -44,7 +44,7 @@ which
 Development of Takao requires Python 3.11, [Poetry](https://python-poetry.org)
 and Node.js 18.
 
-### Building a wheel
+### Set up
 
 1. Install Python dependencies:
 
@@ -58,13 +58,28 @@ and Node.js 18.
    npm install
    ```
 
-3. Build static assets:
+### Build a wheel
 
-   ```shell
-   npm run build
-   ```
+```shell
+poetry run python scripts/build.py
+```
 
-4. Build the wheel :
-   ```shell
-   poetry build
-   ```
+### Build the docs
+
+```shell
+poetry run python scripts/build_docs.py
+```
+
+### Run visual regression tests
+
+Requires [Podman](https://podman.io/getting-started/installation).
+
+```shell
+poetry run python scripts/run_e2e_tests.py
+```
+
+#### Update changed snapshots
+
+```shell
+poetry run python scripts/run_e2e_tests_update_snapshots.py
+```

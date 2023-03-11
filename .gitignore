@@ -203,3 +203,4 @@ web_modules/
 *.tgz
 
 /takao/static/
+/test/e2e/output/

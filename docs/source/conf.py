@@ -13,7 +13,7 @@ author = "Reupen Shah"
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = []
+extensions = ["sphinx_sitemap"]
 
 templates_path = ["_templates"]
 exclude_patterns = []
@@ -25,3 +25,6 @@ highlight_language = "python3"
 
 html_theme = "takao"
 html_static_path = ["_static"]
+
+sitemap_url_scheme = "{link}"
+sitemap_filename = "pages.xml"
