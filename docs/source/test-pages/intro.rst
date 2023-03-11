@@ -1,5 +1,5 @@
-Intro
-=====
+Test pages intro
+================
 
 This section contains various examples of reStructuredText markup,
 largely sourced from public domain examples in `docutils`_.
