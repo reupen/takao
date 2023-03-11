@@ -144,54 +144,6 @@
   .code-block-caption + * pre {
     margin-top: 0.5rem;
   }
-
-  & .admonition {
-    background: var(--admonition-default-background);
-    border: 1px solid var(--admonition-default-accent);
-    border-radius: 2px;
-    margin: 1rem 0;
-
-    > p {
-      margin: 0;
-
-      &:not(:empty):not(.admonition-title) {
-        padding: 2px 7px;
-      }
-
-      &:last-child {
-        margin-bottom: 0.25rem;
-      }
-    }
-
-    & ul, & ol {
-      padding-left: 1.75rem;
-    }
-
-    & .admonition-title {
-      background: var(--admonition-default-accent);
-      border-radius: 2px 2px 0 0;
-      padding: 1px 7px;
-      margin-bottom: 0.25rem;
-    }
-
-    &.seealso {
-      background: var(--admonition-seealso-background);
-      border-color: var(--admonition-seealso-accent);
-
-      .admonition-title {
-        background: var(--admonition-seealso-accent);
-      }
-    }
-
-    &.warning {
-      background: var(--admonition-warning-background);
-      border-color: var(--admonition-warning-accent);
-
-      .admonition-title {
-        background: var(--admonition-warning-accent);
-      }
-    }
-  }
 }
 
 .headerlink {

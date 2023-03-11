@@ -6,6 +6,18 @@
    self
    installation
 
+.. toctree::
+   :hidden:
+   :maxdepth: 2
+   :caption: Test pages
+
+   test-pages/intro.rst
+   test-pages/admonitions.rst
+   test-pages/basic-lists.rst
+   test-pages/blocks.rst
+   test-pages/description-lists.rst
+   test-pages/tables.rst
+
 Introduction
 ============
 

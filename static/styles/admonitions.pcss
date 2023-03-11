@@ -1,0 +1,121 @@
+.document {
+  & .admonition {
+    background: var(--admonition-default-background);
+    border: 1px solid var(--admonition-default-accent);
+    border-radius: 2px;
+    margin: 1rem 0;
+
+    > p {
+      margin: 0;
+
+      &:not(:empty):not(.admonition-title) {
+        padding: 2px 7px;
+      }
+
+      &:last-child {
+        margin-bottom: 0.25rem;
+      }
+    }
+
+    & ul, & ol {
+      padding-left: 1.75rem;
+    }
+
+    & .admonition-title {
+      background: var(--admonition-default-accent);
+      border-radius: 2px 2px 0 0;
+      padding: 1px 7px;
+      margin-bottom: 0.25rem;
+    }
+
+    &.attention {
+      background: var(--admonition-attention-background);
+      border-color: var(--admonition-attention-accent);
+
+      .admonition-title {
+        background: var(--admonition-attention-accent);
+      }
+    }
+
+    &.caution {
+      background: var(--admonition-caution-background);
+      border-color: var(--admonition-caution-accent);
+
+      .admonition-title {
+        background: var(--admonition-caution-accent);
+      }
+    }
+
+    &.danger {
+      background: var(--admonition-danger-background);
+      border-color: var(--admonition-danger-accent);
+
+      .admonition-title {
+        background: var(--admonition-danger-accent);
+      }
+    }
+
+    &.error {
+      background: var(--admonition-error-background);
+      border-color: var(--admonition-error-accent);
+
+      .admonition-title {
+        background: var(--admonition-error-accent);
+      }
+    }
+
+    &.hint {
+      background: var(--admonition-hint-background);
+      border-color: var(--admonition-hint-accent);
+
+      .admonition-title {
+        background: var(--admonition-hint-accent);
+      }
+    }
+
+    &.important {
+      background: var(--admonition-important-background);
+      border-color: var(--admonition-important-accent);
+
+      .admonition-title {
+        background: var(--admonition-important-accent);
+      }
+    }
+
+    &.note {
+      background: var(--admonition-note-background);
+      border-color: var(--admonition-note-accent);
+
+      .admonition-title {
+        background: var(--admonition-note-accent);
+      }
+    }
+
+    &.seealso {
+      background: var(--admonition-seealso-background);
+      border-color: var(--admonition-seealso-accent);
+
+      .admonition-title {
+        background: var(--admonition-seealso-accent);
+      }
+    }
+
+    &.tip {
+      background: var(--admonition-tip-background);
+      border-color: var(--admonition-tip-accent);
+
+      .admonition-title {
+        background: var(--admonition-tip-accent);
+      }
+    }
+
+    &.warning {
+      background: var(--admonition-warning-background);
+      border-color: var(--admonition-warning-accent);
+
+      .admonition-title {
+        background: var(--admonition-warning-accent);
+      }
+    }
+  }
+}
