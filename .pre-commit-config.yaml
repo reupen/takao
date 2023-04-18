@@ -22,7 +22,7 @@ repos:
       - id: isort
         args: ["--filter-files"]
   - repo: https://github.com/psf/black
-    rev: 23.1.0
+    rev: 23.3.0
     hooks:
       - id: black
   - repo: https://github.com/pre-commit/mirrors-prettier
@@ -31,7 +31,7 @@ repos:
       - id: prettier
         types_or: [css, javascript, json, markdown, ts, yaml]
   - repo: https://github.com/Riverside-Healthcare/djLint
-    rev: v1.19.16
+    rev: v1.23.0
     hooks:
       - id: djlint-jinja
         types_or: ["jinja"]

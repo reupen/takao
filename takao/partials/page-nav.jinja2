@@ -9,17 +9,16 @@
             <ul>
               {%- for subitem in item.children -%}
                 <li>
-                  <a href="{{ subitem.href }}" class="page-nav-link">{{ subitem.title }}</a
-                    >
-                  </li>
-                {%- endfor -%}
-              </ul>
-            {%- endif -%}
-          </li>
-        {%- endfor -%}
-      </ul>
-    {%- endif -%}
-    <p>
-      <a href="#top">Back to top</a>
-    </p>
-  </div>
+                  <a href="{{ subitem.href }}" class="page-nav-link">{{ subitem.title }}</a>
+                </li>
+              {%- endfor -%}
+            </ul>
+          {%- endif -%}
+        </li>
+      {%- endfor -%}
+    </ul>
+  {%- endif -%}
+  <p>
+    <a href="#top">Back to top</a>
+  </p>
+</div>
