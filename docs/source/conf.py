@@ -18,7 +18,7 @@ extensions = ["sphinx_sitemap"]
 templates_path = ["_templates"]
 exclude_patterns = []
 
-highlight_language = "python3"
+highlight_language = "default"
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
