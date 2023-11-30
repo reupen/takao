@@ -12,8 +12,8 @@
     "test:update": "python scripts/run_e2e_tests_update_snapshots.py"
   },
   "devDependencies": {
-    "@babel/cli": "^7.23.0",
-    "@babel/preset-env": "^7.23.3",
+    "@babel/cli": "^7.23.4",
+    "@babel/preset-env": "^7.23.5",
     "@babel/preset-typescript": "^7.23.3",
     "@playwright/test": "^1.39.0",
     "cssnano": "^6.0.1",
