@@ -1,8 +1,32 @@
 Basic lists
 ===========
 
-Bullet list
------------
+Simple bullet list
+------------------
+
+- Item number 1
+- Item number 2
+- Item number 3
+
+Bullet list with paragraphs
+---------------------------
+
+-  Text in the status bar is now rendered using DirectWrite.
+
+   This includes colour font support on Windows 8.1 and newer (allowing
+   the use of, for example, colour emojis).
+
+-  Ctrl+Tab and Shift+Ctrl+Tab can now be used in Tab stack and Playlist
+   tabs to switch to the next and previous tab respectively.
+
+-  An option to make clicking on the Artwork view panel open the
+   displayed image in the foobar2000 picture viewer was added on
+   foobar2000 1.6.2 or newer.
+
+   This is now the default for new installations.
+
+Nested bullet list
+------------------
 
 - A bullet list
 

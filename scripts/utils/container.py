@@ -8,7 +8,7 @@ ROOT_DIR = PurePath(__file__).parents[2].as_posix()
 
 
 def run_in_playwright_container(command):
-    playwright_version = get_dependency_version("@playwright/test")
+    playwright_version = get_dependency_version("node_modules/@playwright/test")
     command = [
         "podman",
         "run",
