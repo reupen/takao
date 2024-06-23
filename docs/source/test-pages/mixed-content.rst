@@ -52,6 +52,8 @@ To configure my product, follow these steps:
 2. Select the configuration tab.
 3. Adjust the settings as desired.
 4. Save the changes.
+5. Enter this inline code.
+6. ``%this_is_a_very_very_very_long_bit_of_inline_code_that_does_not_always_fit_on_one_line%``
 
 .. code-block:: python
 

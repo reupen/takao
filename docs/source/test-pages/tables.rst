@@ -28,3 +28,17 @@ Column and row span
 +------------------------+ span rows. | - contain           |
 | body row 4             |            | - body elements.    |
 +------------------------+------------+---------------------+
+
+Inline code
+-----------
+
++-----------------------+-------------------------------------------------------------------------+
+| Field                 | Description                                                             |
++=======================+=========================================================================+
+| ``%_display_index%``  | The current row number in the playlist view (including group headings)  |
++-----------------------+-------------------------------------------------------------------------+
+| ``%_is_group% %yes%`` | Whether a group heading is currently being formatted                    |
++-----------------------+-------------------------------------------------------------------------+
+| ``%_is_themed%``      | Whether ‘Themed’ has been selected as the scheme for the playlist view  |
+|                       | in Colours and fonts preferences                                        |
++-----------------------+-------------------------------------------------------------------------+
