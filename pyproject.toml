@@ -1,3 +1,6 @@
+[project]
+requires-python = ">=3.11"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
@@ -14,7 +17,7 @@ packages = [{include = "takao"}]
 include = ["takao/static/**/*"]
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = "^3.11"
 sphinx = ">=4"
 
 [tool.poetry.group.dev.dependencies]
@@ -30,3 +33,9 @@ profile="jinja"
 ignore="H020"
 indent=2
 extension="jinja2"
+
+[tool.ruff.lint]
+extend-select = ["B0", "I", "SIM", "UP"]
+
+[tool.ruff.lint.isort]
+split-on-trailing-comma=false
