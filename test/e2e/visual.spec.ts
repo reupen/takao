@@ -2,7 +2,7 @@ import { expect, test } from "@playwright/test";
 import sitemap from "../../docs/build/html/pages.json";
 
 const PAGES = sitemap.urlset.url.map((url) =>
-  url.loc.replaceAll(/\/index.html$/g, ""),
+  url.loc.replaceAll(/\/index.html$/g, "."),
 );
 
 PAGES.forEach((path) => {
