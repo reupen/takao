@@ -23,7 +23,7 @@ sphinx = ">=4"
 [tool.poetry.group.dev.dependencies]
 djlint = "^1.19.14"
 sphinx-sitemap = "^2.5.0"
-xmltodict = "^0.13.0"
+xmltodict = ">=0.13,<0.15"
 
 [tool.poetry.plugins."sphinx.html_themes"]
 takao = "takao"
