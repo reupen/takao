@@ -14,8 +14,8 @@
   },
   "devDependencies": {
     "@babel/cli": "^7.25.9",
-    "@babel/preset-env": "^7.25.9",
-    "@babel/preset-typescript": "^7.25.9",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-typescript": "^7.26.0",
     "@playwright/test": "^1.48.1",
     "cssnano": "^7.0.6",
     "http-server": "^14.1.1",
