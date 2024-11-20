@@ -20,7 +20,7 @@ def run_in_playwright_container(command):
         "-it",
         "-e",
         "CI",
-        f"mcr.microsoft.com/playwright:v{playwright_version}-jammy",
+        f"mcr.microsoft.com/playwright:v{playwright_version}-noble",
         "bash",
         "-c",
         command,
