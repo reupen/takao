@@ -67,7 +67,7 @@ jobs:
       - build-docs
       - get-playwright-version
     container:
-      image: mcr.microsoft.com/playwright:v${{ needs.get-playwright-version.outputs.version }}-jammy
+      image: mcr.microsoft.com/playwright:v${{ needs.get-playwright-version.outputs.version }}-noble
       options: --user 1001
     steps:
       - name: Git clone repository
