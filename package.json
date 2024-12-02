@@ -1,7 +1,7 @@
 {
   "name": "takao",
   "dependencies": {
-    "inter-ui": "^4.0.2"
+    "inter-ui": "^4.1.0"
   },
   "scripts": {
     "build": "npm run build:css && npm run build:js",
