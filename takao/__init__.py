@@ -28,7 +28,7 @@ def get_sections(node: nodes.Element, recurse=False):
 
     return [
         {
-            "href": f'#{section["ids"][0]}',
+            "href": f"#{section['ids'][0]}",
             "title": get_title(section),
             **({"children": get_sections(section)} if recurse else {}),
         }
