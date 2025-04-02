@@ -1,0 +1,14 @@
+[theme]
+inherit = "basic"
+stylesheets = [
+    "takao.css",
+]
+sidebars = [
+    "partials/global-toc.jinja2",
+    "searchbox.html",
+    "partials/readthedocs-menu.jinja2",
+]
+pygments_style = { default = "fruity", dark = "fruity" }
+
+[options]
+globaltoc_maxdepth = "1"

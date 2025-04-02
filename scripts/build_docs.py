@@ -20,7 +20,7 @@ def convert_sitemap_to_json():
 def build_docs(*args):
     os.chdir(PurePath(__file__).parents[1])
     run("npm run build", check=True, shell=True)
-    main(["-a", *args, "docs/source", "docs/build/html"])
+    main(["-a", "-D", "html_baseurl=/", *args, "docs/source", "docs/build/html"])
     convert_sitemap_to_json()
 
 
