@@ -42,7 +42,7 @@ which
 ## Development
 
 Development of Takao requires Python 3.11, [uv](https://docs.astral.sh/uv/) and
-Node.js 18.
+Node.js 22.
 
 ### Set up
 
