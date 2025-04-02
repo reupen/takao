@@ -41,15 +41,15 @@ which
 
 ## Development
 
-Development of Takao requires Python 3.11, [Poetry](https://python-poetry.org)
-and Node.js 18.
+Development of Takao requires Python 3.11, [uv](https://docs.astral.sh/uv/) and
+Node.js 18.
 
 ### Set up
 
 1. Install Python dependencies:
 
    ```shell
-   poetry install
+   uv sync
    ```
 
 2. Install Node.js dependencies:
@@ -61,13 +61,13 @@ and Node.js 18.
 ### Build a wheel
 
 ```shell
-poetry run python scripts/build.py
+uv run scripts/build.py
 ```
 
 ### Build the docs
 
 ```shell
-poetry run python scripts/build_docs.py
+uv run scripts/build_docs.py
 ```
 
 ### Run visual regression tests
@@ -75,11 +75,11 @@ poetry run python scripts/build_docs.py
 Requires [Podman](https://podman.io/getting-started/installation).
 
 ```shell
-poetry run python scripts/run_e2e_tests.py
+uv run scripts/run_e2e_tests.py
 ```
 
 #### Update changed snapshots
 
 ```shell
-poetry run python scripts/run_e2e_tests_update_snapshots.py
+uv run scripts/run_e2e_tests_update_snapshots.py
 ```
