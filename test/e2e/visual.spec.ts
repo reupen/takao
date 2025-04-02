@@ -21,6 +21,7 @@ test.describe("@mobile menu", () => {
   test("matches the saved screenshot", async ({ page }) => {
     await page.goto("/");
     await page.getByRole("button", { name: "Menu" }).click();
+    await page.mouse.move(0, 0);
     await expect(page).toHaveScreenshot("screenshot-menu-open.png");
   });
 });
