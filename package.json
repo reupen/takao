@@ -13,9 +13,9 @@
     "test:update": "python scripts/run_e2e_tests_update_snapshots.py"
   },
   "devDependencies": {
-    "@babel/cli": "^7.27.0",
-    "@babel/preset-env": "^7.26.9",
-    "@babel/preset-typescript": "^7.27.0",
+    "@babel/cli": "^7.27.1",
+    "@babel/preset-env": "^7.27.1",
+    "@babel/preset-typescript": "^7.27.1",
     "@playwright/test": "^1.52.0",
     "cssnano": "^7.0.6",
     "http-server": "^14.1.1",
