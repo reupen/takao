@@ -16,7 +16,7 @@
     "@babel/cli": "^7.28.0",
     "@babel/preset-env": "^7.28.0",
     "@babel/preset-typescript": "^7.27.1",
-    "@playwright/test": "^1.53.2",
+    "@playwright/test": "^1.54.0",
     "cssnano": "^7.0.7",
     "http-server": "^14.1.1",
     "postcss": "^8.5.6",
