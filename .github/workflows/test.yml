@@ -13,7 +13,7 @@ jobs:
       version: ${{ steps.get-version.outputs.version }}
     steps:
       - name: Git clone repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Set up uv
         id: setup-uv
@@ -51,7 +51,7 @@ jobs:
       version: ${{ steps.get-version.outputs.version }}
     steps:
       - name: Git clone repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - id: get-version
         name: Get Playwright version
@@ -69,7 +69,7 @@ jobs:
       options: --user 1001
     steps:
       - name: Git clone repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - uses: actions/setup-node@v4
         with:
@@ -80,7 +80,7 @@ jobs:
         run: npm install
 
       - name: Download built docs
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v5
         with:
           name: docs
           path: /tmp
