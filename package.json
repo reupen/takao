@@ -28,6 +28,6 @@
     "prettier": "^3.6.2",
     "shx": "^0.4.0",
     "stylelint": "^16.24.0",
-    "typescript": "^5.9.2"
+    "typescript": "^5.9.3"
   }
 }
