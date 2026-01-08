@@ -1,6 +1,6 @@
 [project]
 name = "takao"
-version = "0.2.1"
+version = "0.2.2"
 description = "A dark theme for Sphinx."
 authors = [{ name = "Reupen Shah" }]
 requires-python = ">=3.11"
