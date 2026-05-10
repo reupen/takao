@@ -22,7 +22,7 @@ github = "https://github.com/reupen/takao"
 dev = [
     "djlint>=1.19.14",
     "sphinx-sitemap>=2.5.0",
-    "xmltodict>=0.13,<0.15",
+    "xmltodict>=0.13,<1.1",
 ]
 
 [build-system]
