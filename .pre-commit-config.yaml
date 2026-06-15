@@ -11,18 +11,18 @@ repos:
       - id: check-json
       - id: check-yaml
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.15.16
+    rev: v0.15.17
     hooks:
       - id: ruff
         args: [--fix]
       - id: ruff-format
   - repo: https://github.com/rbubley/mirrors-prettier
-    rev: v3.8.3
+    rev: v3.8.4
     hooks:
       - id: prettier
         types_or: [css, javascript, json, markdown, ts, yaml]
   - repo: https://github.com/Riverside-Healthcare/djLint
-    rev: v1.39.0
+    rev: v1.39.2
     hooks:
       - id: djlint-jinja
         types_or: ["jinja"]
