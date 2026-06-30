@@ -27,7 +27,7 @@
     "postcss-url": "^10.1.4",
     "prettier": "^3.8.4",
     "shx": "^0.4.0",
-    "stylelint": "^17.13.0",
+    "stylelint": "^17.14.0",
     "typescript": "^6.0.3"
   }
 }
