@@ -11,7 +11,7 @@ repos:
       - id: check-json
       - id: check-yaml
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.15.21
+    rev: v0.15.22
     hooks:
       - id: ruff
         args: [--fix]
@@ -22,7 +22,7 @@ repos:
       - id: prettier
         types_or: [css, javascript, json, markdown, ts, yaml]
   - repo: https://github.com/Riverside-Healthcare/djLint
-    rev: v1.40.6
+    rev: v1.41.0
     hooks:
       - id: djlint-jinja
         types_or: ["jinja"]
