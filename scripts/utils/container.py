@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 from pathlib import PurePath
 from subprocess import run
 
