@@ -17,7 +17,7 @@ module.exports = {
     postcssCustomMedia(),
     postcssPresetEnv({ stage: 1 }),
     cssnano({
-      preset: "default",
+      preset: ["default", { calc: false }],
     }),
   ],
 };
