@@ -26,6 +26,10 @@ updates:
       postcss:
         patterns:
           - "postcss*"
+    ignore:
+      - dependency-name: typescript
+        versions:
+          - "7.0.x"
 
   - package-ecosystem: uv
     directory: /
