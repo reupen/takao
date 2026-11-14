@@ -13,7 +13,7 @@
     "test:update": "python scripts/run_e2e_tests_update_snapshots.py"
   },
   "devDependencies": {
-    "@babel/cli": "^8.0.6",
+    "@babel/cli": "^8.1.0",
     "@babel/preset-env": "^8.0.7",
     "@babel/preset-typescript": "^8.0.7",
     "@playwright/test": "^1.64.1",
